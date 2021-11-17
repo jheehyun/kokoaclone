@@ -1,3 +1,3 @@
 # kokoaclone
 
-kokoa clone practice!
+HTML & CSS are so much fun!
