@@ -1,21 +1,21 @@
 .badge {
-  background: tomato;
-  width: 20px;
-  height: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: #fff;
-  font-weight: 600;
-  font-size: 12px;
-  font-weight: 200;
+    background: tomato;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    font-weight: 200;
 }
 .badge-sm {
-  background: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
+    background: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
 }

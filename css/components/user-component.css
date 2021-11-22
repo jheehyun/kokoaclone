@@ -31,6 +31,7 @@
   margin-top: 8px;
   font-size: 17px;
   color: var(--main-gray);
+  position: relative;
 }
 .user-component__title--not-bold {
   font-weight: normal;

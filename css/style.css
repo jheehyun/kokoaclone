@@ -7,15 +7,34 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 body {
-  font-family: "IBM Plex Sans KR", sans-serif;
-  color: #2e363e;
-  margin-bottom: 73px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    color: #2e363e;
+    margin-bottom: 73px;
+}
+/* 스크롤바 설정 */
+body::-webkit-scrollbar {
+    width: 8px;
+}
+/* 스크롤바 막대설정 */
+body::-webkit-scrollbar-thumb {
+    background: rgb(136, 136, 136);
+    border-radius: 5px;
+}
+/* 스크롤바 뒷 배경 설정 */
+body::-webkit-scrollbar-track {
+    background: rgb(204, 204, 204);
 }
 .main-screen {
-  padding: 0 var(--horizontal-space);
+    padding: 0 var(--horizontal-space);
 }
